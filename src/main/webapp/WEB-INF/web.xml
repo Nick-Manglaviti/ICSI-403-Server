@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>ReverseList</display-name>
+    <description>
+        A simple servlet to reverse a JSON list 
+    </description>
+    <servlet>
+        <servlet-name>ReverseList</servlet-name>
+        <servlet-class>csi403proj1.ReverseList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReverseList</servlet-name>
+        <url-pattern>/ReverseList</url-pattern>
+    </servlet-mapping>
+	
+	<display-name>Prioritize</display-name>
+    <description>
+        A simple servlet to sort a JSON list using Insertion Sort
+    </description>
+    <servlet>
+        <servlet-name>Prioritize</servlet-name>
+        <servlet-class>csi403proj2.Prioritize</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Prioritize</servlet-name>
+        <url-pattern>/Prioritize</url-pattern>
+    </servlet-mapping>
+	
+	<display-name>TopologicalSort</display-name>
+    <description>
+       A graph that sorts people by smartness
+    </description>
+    <servlet>
+        <servlet-name>TopologicalSort</servlet-name>
+        <servlet-class>csi403proj3.TopologicalSort</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TopologicalSort</servlet-name>
+        <url-pattern>/TopologicalSort</url-pattern>
+    </servlet-mapping>
+	
+	<display-name>PolygonGenerator</display-name>
+    <description>
+        A simple servlet to generate a polygon and find number of points inside.
+    </description>
+    <servlet>
+        <servlet-name>PolygonGenerator</servlet-name>
+        <servlet-class>csi403proj4.PolygonGenerator</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PolygonGenerator</servlet-name>
+        <url-pattern>/PolygonGenerator</url-pattern>
+    </servlet-mapping>
+	
+	<display-name>StructureDetector</display-name>
+    <description>
+        A simple servlet to reverse a JSON list 
+    </description>
+    <servlet>
+        <servlet-name>StructureDetector</servlet-name>
+        <servlet-class>csi403proj5.StructureDetector</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StructureDetector</servlet-name>
+        <url-pattern>/StructureDetector</url-pattern>
+    </servlet-mapping>
+
+</web-app>     

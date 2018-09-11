@@ -1,5 +1,5 @@
 # ICSI-403-Server
-A restful service that used AWS to parse JSON posts into Java, operate on them, then return a result back into JSON.
+A restful service that uses AWS to parse JSON posts into Java, operate on them, then return a result back into JSON.
 
 Used Elastic Beanstalk on Amazon Web Services.
 Maintained by Tomcat and built using Maven to create a .WAR file.
